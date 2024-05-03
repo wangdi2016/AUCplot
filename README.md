@@ -1,6 +1,6 @@
 # AUCplot
 
-The code is for AUC plot (Difei Wang, 2024-05-03) in CRC PRS project
+The code is for AUC plot (DW, 2024-05-03) for the CRC PRS project.
 
 the following sentences are from Minta Thomas from Li Hsu group at Fred Hutch.
 
@@ -25,5 +25,3 @@ confounders=~ageCRC+sex+pc1+pc2+pc3+pc4 , database=ffdata )$auc
 
 #Please refer ROCt package for the details, alternately you can use RISCA R package with roc.binary() and let us know if you have any questions.
 
-## 
-The AUC plot script was written to generate the AUC plot for CRC PRS project.
