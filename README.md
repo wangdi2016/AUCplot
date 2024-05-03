@@ -1,10 +1,8 @@
 # AUCplot
 
- 
-The code is for AUC plot (Difei Wang, 2024-05-03)
+The code is for AUC plot (Difei Wang, 2024-05-03) in CRC PRS project
 
 the following sentences are from Minta Thomas from Li Hsu group at Fred Hutch.
-
 
 Please see below the code for calculation age and sex adjusted AUC:
 Input file: a data frame with vectors, age,sex, PRS, outcome and PCs
@@ -26,3 +24,5 @@ adjusted.ROC(status="outcome", variable="prs_std",
 confounders=~ageCRC+sex+pc1+pc2+pc3+pc4 , database=ffdata )$auc
 
 #Please refer ROCt package for the details, alternately you can use RISCA R package with roc.binary() and let us know if you have any questions.
+
+with the above code, I wrote the AUC plot script to generate the AUC plot for CRC PRS project.
