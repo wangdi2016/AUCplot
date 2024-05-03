@@ -25,4 +25,5 @@ confounders=~ageCRC+sex+pc1+pc2+pc3+pc4 , database=ffdata )$auc
 
 #Please refer ROCt package for the details, alternately you can use RISCA R package with roc.binary() and let us know if you have any questions.
 
-with the above code, I wrote the AUC plot script to generate the AUC plot for CRC PRS project.
+## 
+The AUC plot script was written to generate the AUC plot for CRC PRS project.
